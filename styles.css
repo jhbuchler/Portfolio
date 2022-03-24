@@ -291,6 +291,10 @@ span {
     padding: 0 50px;
 }
 
+.main__container p {
+    font-size: 16px;
+}
+
 .main__container contact-blurb {
     display: grid;
     grid-template-columns: 1fr 1fr;
