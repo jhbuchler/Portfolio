@@ -405,3 +405,45 @@ h1:last-of-type span {
     text-decoration: none;
 }
 
+.title__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #833ab4;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.title__btn:hover {
+    color: #fff;
+}
+
+.title__btn:hover:after {
+    width:100%;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #833ab4;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;
+}
+
+.main__btn:hover:after {
+    width:100%;
+}
+
+
+
