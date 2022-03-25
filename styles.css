@@ -365,11 +365,11 @@ h1:last-of-type span {
     100% {opacity:0;width:500px;}
 }
 
-.title__btn {
-    font-size: 1.8rem;
+.main__btn {
+    font-size: 1.1rem;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 20px 60px;
+    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     margin-top: 2rem;
@@ -377,5 +377,12 @@ h1:last-of-type span {
     position: relative;
     transition: all 0.35s;
     outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
 }
 
