@@ -323,12 +323,10 @@ h1 {
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
-}
-
-h1 {
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
+  font-style: italic;
 }
 
 h1:first-of-type {    
