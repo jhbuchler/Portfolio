@@ -524,8 +524,40 @@ h1:last-of-type span {
 
     @keyframes reveal {
         0% {opacity:0;width:0px;}
-        90% {opacity:1;width:450px;}
-        100% {opacity:0;width:450px;}
+        90% {opacity:1;width:420px;}
+        100% {opacity:0;width:420px;}
     }
 }
+
+@media screen and (max-width: 480px) {
+    .main__img--card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .fa-users, .fa-layer-group {
+        font-size: 4rem;
+    }
+
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+    }
+
+    .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+
+    @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        90% {opacity:1;width:275px;}
+        100% {opacity:0;width:275px;}
+    }
+}
+
 
