@@ -327,6 +327,7 @@ h1 {
   overflow:hidden;
   white-space:nowrap;
   font-style: italic;
+  color: #00dbde;
 }
 
 h1:first-of-type {    
@@ -359,6 +360,9 @@ h1:last-of-type span {
 
 @keyframes reveal {
     0% {opacity:0;width:0px;}
+    10% {opacity:1; width:0px}
+    20% {opacity:1; width: 0px;}
+    40% {opacity:1; width: 0px;}
     90% {opacity:1;width:500px;}
     100% {opacity:0;width:500px;}
 }
@@ -560,4 +564,24 @@ h1:last-of-type span {
     }
 }
 
+/* Services Section */
+.services {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.services h1 {
+    background-color: #fc00ff;
+    background-image: linear-gradient(to right, #ff0844 0% #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
 
