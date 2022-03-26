@@ -465,8 +465,14 @@ h1:last-of-type span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     color: #fff;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.fa-layer-group,
+.fa-users {
+    font-size: 14rem;
 }
 
 
