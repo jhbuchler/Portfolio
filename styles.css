@@ -384,9 +384,13 @@ h1:last-of-type span {
     text-decoration: none;
 }
 
-.contact-blurb p {
+.contact-blurb {
     margin-top: 10px;
     text-align: center;
+}
+
+.contact-blurb {
+    font-style: italic;
 }
 
 .main__btn {
