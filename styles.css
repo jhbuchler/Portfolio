@@ -587,7 +587,7 @@ h1:last-of-type span {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
     font-size: 2.5rem;
 }
 
@@ -646,7 +646,7 @@ h1:last-of-type span {
 
 .services__card {
     margin: 10px;
-    height: 425px;
+    height: 350px;
     width: 360px;
     border-radius: 4px;
     display: flex;
@@ -660,7 +660,7 @@ h1:last-of-type span {
 
 .services__card2 {
     margin: 10px;
-    height: 425px;
+    height: 350px;
     width: 360px;
     border-radius: 4px;
     display: flex;
@@ -674,7 +674,7 @@ h1:last-of-type span {
 
 .services__card3 {
     margin: 10px;
-    height: 425px;
+    height: 350px;
     width: 360px;
     border-radius: 4px;
     display: flex;
@@ -686,3 +686,80 @@ h1:last-of-type span {
     transition: 0.3s ease-in;
 }
 
+.services__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.services__btn2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.services__btn3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.services__card button {
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background:#131313;
+    font-size: 1rem;
+}
+
+.services__card button:hover {
+    cursor: pointer;
+}
+
+.services__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.services__card2 button {
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background:#131313;
+    font-size: 1rem;
+}
+
+.services__card2 button:hover {
+    cursor: pointer;
+}
+
+.services__card2:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.services__card3 button {
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background:#131313;
+    font-size: 1rem;
+}
+
+.services__card3 button:hover {
+    cursor: pointer;
+}
+
+.services__card3:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
