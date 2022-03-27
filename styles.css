@@ -710,12 +710,13 @@ h1:last-of-type span {
     border: none;
     outline: none;
     border-radius: 4px;
-    background:#131313;
+    background:#833ab4;
     font-size: 1rem;
 }
 
 .services__card button:hover {
     cursor: pointer;
+    background: blue;
 }
 
 .services__card:hover {
@@ -730,12 +731,13 @@ h1:last-of-type span {
     border: none;
     outline: none;
     border-radius: 4px;
-    background:#131313;
+    background:#833abf;
     font-size: 1rem;
 }
 
 .services__card2 button:hover {
     cursor: pointer;
+    background: blue;
 }
 
 .services__card2:hover {
@@ -750,12 +752,13 @@ h1:last-of-type span {
     border: none;
     outline: none;
     border-radius: 4px;
-    background:#131313;
+    background:#833ab4;
     font-size: 1rem;
 }
 
 .services__card3 button:hover {
     cursor: pointer;
+    background: blue;
 }
 
 .services__card3:hover {
@@ -763,3 +766,17 @@ h1:last-of-type span {
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+    .services__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .services__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer CSS */
