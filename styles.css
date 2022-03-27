@@ -593,9 +593,9 @@ h1:last-of-type span {
 
 .services__wrapper {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-}
+} 
 
 .services__card h2 {
     font-size: 19px;
