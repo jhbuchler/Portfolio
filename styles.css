@@ -717,7 +717,7 @@ h1:last-of-type span {
 
 .services__card button:hover {
     cursor: pointer;
-    background: blue;
+    background: #833ab4;
 }
 
 .services__card:hover {
@@ -739,7 +739,7 @@ h1:last-of-type span {
 
 .services__card2 button:hover {
     cursor: pointer;
-    background: blue;
+    background: #833ab4;
 }
 
 .services__card2:hover {
@@ -761,7 +761,7 @@ h1:last-of-type span {
 
 .services__card3 button:hover {
     cursor: pointer;
-    background: blue;
+    background: #833ab4;
 }
 
 .services__card3:hover {
