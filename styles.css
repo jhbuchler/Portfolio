@@ -651,7 +651,7 @@ h1:last-of-type span {
 
 .services__card {
     margin: 10px;
-    height: 325px;
+    height: 350px;
     width: 90%;
     border-radius: 4px;
     display: flex;
@@ -665,7 +665,7 @@ h1:last-of-type span {
 
 .services__card2 {
     margin: 10px;
-    height: 325px;
+    height: 350px;
     width: 90%;
     border-radius: 4px;
     display: flex;
@@ -679,7 +679,7 @@ h1:last-of-type span {
 
 .services__card3 {
     margin: 10px;
-    height: 325px;
+    height: 350px;
     width: 90%;
     border-radius: 4px;
     display: flex;
