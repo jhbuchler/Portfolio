@@ -778,6 +778,7 @@ h1:last-of-type span {
 @media screen and (max-width: 1300px) {
     .services__wrapper {
         grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
         row-gap: 10px;
     }
 }
@@ -785,6 +786,7 @@ h1:last-of-type span {
 @media screen and (max-width:768px) {
     .services__wrapper {
         grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
         row-gap: 10px;
     }
 }
