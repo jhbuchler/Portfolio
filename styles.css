@@ -246,6 +246,8 @@ body {
   justify-content: center;
   height: 50vh;
   letter-spacing: 1px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 span {
@@ -601,16 +603,19 @@ h1:last-of-type span {
 .services__card h2 {
     font-size: 19px;
     margin: 4px;
+    margin-top: 10px;
 }
 
 .services__card2 h2 {
     font-size: 19px;
     margin: 4px;
+    margin-top: 10px;
 }
 
 .services__card3 h2 {
     font-size: 19px;
     margin: 4px;
+    margin-top: 10px;
 }
 
 .services__card p {
@@ -801,11 +806,12 @@ h1:last-of-type span {
 .footer__link--items {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 16px;
-    text-align: left;
-    width: 160px;
+    text-align: center;
+    width: 100%;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .footer__link--items h2 {
@@ -818,8 +824,7 @@ h1:last-of-type span {
 .footer__link--items a {
     text-decoration: none;
     margin-bottom: 0.5rem;
+    color: blue;
 }
 
-.footer__link--items a:hover {
-    transition: 0.3 ease-out;
-}
+
