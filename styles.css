@@ -779,7 +779,7 @@ h1:last-of-type span {
     .services__wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        row-gap: 10px;
+        row-gap: 100px;
     }
 }
 
@@ -787,7 +787,7 @@ h1:last-of-type span {
     .services__wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        row-gap: 10px;
+        row-gap: 100px;
     }
 }
 
