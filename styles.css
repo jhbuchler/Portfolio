@@ -191,46 +191,6 @@
     }
 }
 
-/* Hero Section */
-/* .hero {
-    background: #000000;
-    background: linear-gradient(to right #161616, #000000);
-    padding: 200px 0;
-}
-
-.hero__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 90%;
-    text-align: center;
-    padding: 30px;
-}
-
-.hero__heading {
-    font-size: 80px;
-    margin-bottom: 24px;
-    color: #fff;
-}
-
-.hero__heading span {
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    white-space: nowrap;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-} */
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
   background-color: #131313;
@@ -314,14 +274,7 @@ span {
 
 h1 {
   text-align:center;
-  /* background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
-  color:#555; */
   font-family:'Roboto';
-  /* font-weight:300;
-  font-size:32px; */
-  /* padding-top:40vh;
-  height:100vh; */
-  /* overflow:hidden; */
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
@@ -465,15 +418,10 @@ h1:last-of-type span {
 }
 
 .main__img--card {
-    /* height: 500px;
-    width: 500px; */
-    /* border-radius: 4px; */
-    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     text-align: center;
     color: #fff;
-    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
 }
 
 .main__img--card img {
@@ -583,8 +531,6 @@ h1:last-of-type span {
 
 .services h1 {
     background-color: #fff;
-    /* background-image: linear-gradient(to right, #ff0844 0% #ffb199 100%);
-    background-size: 100%; */
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -659,7 +605,6 @@ h1:last-of-type span {
     justify-content: center;
     text-align: center;
     color: #fff;
-    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
     transition: 0.3s ease-in;
 }
 
@@ -673,7 +618,6 @@ h1:last-of-type span {
     justify-content: center;
     text-align: center;
     color: #fff;
-    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
     transition: 0.3s ease-in;
 }
 
@@ -687,7 +631,6 @@ h1:last-of-type span {
     justify-content: center;
     text-align: center;
     color: #fff;
-    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
     transition: 0.3s ease-in;
 }
 
